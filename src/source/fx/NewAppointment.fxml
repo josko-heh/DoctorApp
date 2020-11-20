@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane prefWidth="694.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="source.fx.NewAppointmentController">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="358.5999755859375" minWidth="10.0" prefWidth="301.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="310.20001220703125" minWidth="10.0" prefWidth="299.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="204.80001220703124" minHeight="10.0" prefHeight="131.1999954223633" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="172.79998779296875" minHeight="0.0" prefHeight="35.199981689453125" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="191.99999084472654" minHeight="0.0" prefHeight="17.599999999999994" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="178.79999389648435" minHeight="10.0" prefHeight="25.599999999999994" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="293.599951171875" minHeight="10.0" prefHeight="124.00000610351563" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="197.60000000000002" minHeight="10.0" prefHeight="34.99997558593748" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <TableView fx:id="patientsTable" maxHeight="150.0" maxWidth="-Infinity" minHeight="99.0" minWidth="-Infinity" prefHeight="131.0" prefWidth="593.0" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="TOP">
+         <columns>
+            <TableColumn fx:id="nameColumn" maxWidth="122.0" minWidth="-Infinity" prefWidth="121.60000336170197" text="%Name" />
+            <TableColumn fx:id="surnameColumn" maxWidth="227.0" minWidth="-Infinity" prefWidth="226.40003204345703" text="%Surname" />
+            <TableColumn fx:id="jmbgColumn" maxWidth="126.0" minWidth="-Infinity" prefWidth="125.5999755859375" text="%jmbg" />
+            <TableColumn fx:id="DOBColumn" maxWidth="113.0" minWidth="-Infinity" prefWidth="112.80007934570312" text="%DOB" />
+         </columns>
+      </TableView>
+      <DatePicker fx:id="datePicker" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <TextField fx:id="timeTF" maxWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Label fx:id="time_formatLabel" text="%Time_format" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets right="20.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="dateLabel" text="%Date" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets right="20.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="notesLabel" text="%Notes" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+      <TextArea fx:id="notesTA" maxHeight="134.0" maxWidth="-Infinity" minHeight="50.0" minWidth="-Infinity" prefHeight="134.0" prefWidth="593.0" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM" />
+      <Button fx:id="saveBT" mnemonicParsing="false" onAction="#saveAppointment" text="%Save" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+   </children>
+</GridPane>

@@ -1,1 +1,4 @@
 notes.txt
+database.properties
+*.mwb*
+db.png
