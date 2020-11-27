@@ -2,3 +2,6 @@ notes.txt
 database.properties
 *.mwb*
 db.png
+reports/**
+Popup.java
+*workspace*

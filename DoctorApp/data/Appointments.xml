@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Appointments>
+    <Appointment id="1">
+        <PatientID>2</PatientID>
+        <DateTime>2020-11-04 18:00</DateTime>
+        <Notes>common cold</Notes>
+    </Appointment>
+    <Appointment id="2">
+        <PatientID>2</PatientID>
+        <DateTime>2020-11-05 10:20</DateTime>
+        <Notes>heart check</Notes>
+    </Appointment>
+    <Appointment id="4">
+        <PatientID>3</PatientID>
+        <DateTime>2020-11-03 12:00</DateTime>
+        <Notes>kkkk</Notes>
+    </Appointment>
+    <Appointment id="8">
+        <PatientID>3</PatientID>
+        <DateTime>2020-11-11 11:55</DateTime>
+        <Notes>hghgh</Notes>
+    </Appointment>
+<Appointment id="9"><PatientID>3</PatientID><DateTime>2020-11-21 18:50</DateTime><Notes>provjera</Notes></Appointment><Appointment id="10"><PatientID>3</PatientID><DateTime>2020-12-05 18:50</DateTime><Notes>jijojjoijij</Notes></Appointment></Appointments>
