@@ -34,12 +34,11 @@ header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers
   
   
 // get posted data
-//$data = json_decode(file_get_contents("php://input"));
 $data = (file_get_contents("php://input"));
 
 if (isset($_POST['DateTime']) && !empty($_POST['DateTime']) &&
-    isset($_POST['Notes']) && !empty($_POST['Notes']) )
-{
+    isset($_POST['Notes']) && !empty($_POST['Notes']) ){
+
     if(addEvent($_POST['DateTime'], $_POST['Notes'])){
         // set response code - 201 created
         http_response_code(201);
@@ -49,6 +48,7 @@ if (isset($_POST['DateTime']) && !empty($_POST['DateTime']) &&
         http_response_code(503);
         echo json_encode(array("message" => "Unable to add event."));
     }
+    
 } else{
     // set response code - 400 bad request
     http_response_code(400);

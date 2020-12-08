@@ -14,9 +14,5 @@
         <DateTime>2020-11-03 12:00</DateTime>
         <Notes>kkkk</Notes>
     </Appointment>
-    <Appointment id="8">
-        <PatientID>3</PatientID>
-        <DateTime>2020-11-11 11:55</DateTime>
-        <Notes>hghgh</Notes>
-    </Appointment>
-<Appointment id="9"><PatientID>3</PatientID><DateTime>2020-11-21 18:50</DateTime><Notes>provjera</Notes></Appointment><Appointment id="10"><PatientID>3</PatientID><DateTime>2020-12-05 18:50</DateTime><Notes>jijojjoijij</Notes></Appointment></Appointments>
+    
+<Appointment id="10"><PatientID>3</PatientID><DateTime>2020-12-05 18:50</DateTime><Notes>jijojjoijij</Notes></Appointment><Appointment id="11"><PatientID>3</PatientID><DateTime>2020-12-01 12:04</DateTime><Notes>sdfsdf</Notes></Appointment><Appointment id="12"><PatientID>4</PatientID><DateTime>2020-11-11 11:55</DateTime><Notes>hghgh</Notes></Appointment><Appointment id="13"><PatientID>3</PatientID><DateTime>2020-11-21 18:50</DateTime><Notes>provjeraaaaaaa</Notes></Appointment></Appointments>

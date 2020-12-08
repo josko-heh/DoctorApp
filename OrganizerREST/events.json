@@ -1,1 +1,47 @@
-[{"id":1,"DateTime":"2020-10-04 09:00","Notes":"do dishes"},{"id":2,"DateTime":"2021-10-04 19:00","Notes":"Meet with president."},{"id":3,"DateTime":"2020-10-05 20:00","Notes":"reminder"},{"id":4,"DateTime":"2020-12-01 12:10","Notes":"reminder2"},{"id":5,"DateTime":"2018-10-05 20:00","Notes":"reminder3"},{"id":6,"DateTime":"2020-11-25 20:00","Notes":"reminder4"},{"id":7,"DateTime":"2020-12-05 22:33","Notes":"koncert..."},{"id":8,"DateTime":"2020-10-30 10:11","Notes":"reminder..."},{"id":9,"DateTime":"2020-11-06 04:44","Notes":"....."}]
+[
+    {
+        "id": 1,
+        "DateTime": "2020-10-04 09:00",
+        "Notes": "do dishes"
+    },
+    {
+        "id": 2,
+        "DateTime": "2021-10-04 19:00",
+        "Notes": "Meet the president."
+    },
+    {
+        "id": 3,
+        "DateTime": "2020-10-05 20:00",
+        "Notes": "reminder"
+    },
+    {
+        "id": 4,
+        "DateTime": "2020-12-01 12:10",
+        "Notes": "reminder2"
+    },
+    {
+        "id": 5,
+        "DateTime": "2018-10-05 20:00",
+        "Notes": "reminder3"
+    },
+    {
+        "id": 6,
+        "DateTime": "2020-11-25 20:00",
+        "Notes": "reminder4"
+    },
+    {
+        "id": 7,
+        "DateTime": "2020-12-05 22:33",
+        "Notes": "koncert..."
+    },
+    {
+        "id": 8,
+        "DateTime": "2020-10-30 10:11",
+        "Notes": "reminder..."
+    },
+    {
+        "id": 9,
+        "DateTime": "2020-11-06 04:44",
+        "Notes": "....."
+    }
+]
